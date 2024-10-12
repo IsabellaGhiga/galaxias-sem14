@@ -1,3 +1,26 @@
 main {
-    min-height: calc(100vh - 160px);
-  }
+  min-height: calc(100vh - 160px);
+}
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  height: 420px;
+  padding-bottom: 1rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
